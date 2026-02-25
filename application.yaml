@@ -1,12 +1,3 @@
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://${EUREKA_SERVER_URL}:8761/eureka
-
 insurance
   provider
     url:http://localhost:8081/insurance-service/getNames
